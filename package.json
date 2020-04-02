@@ -1,0 +1,18 @@
+{
+  "name": "mobx-like",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "flow-bin": "^0.121.0",
+    "flow-remove-types": "^2.122.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage1": "flow-remove-types stage1.js > index.js && node index.js",
+    "stage2": "flow-remove-types stage2.js > index.js && node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
